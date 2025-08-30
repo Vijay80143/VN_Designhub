@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VN Design Hub - Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #001f3f; /* navy */
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #001a33;
+    }
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #00ccff;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .nav-links li a:hover {
+      color: #00ccff;
+    }
+
+    /* Portfolio Content */
+    .portfolio-container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      color: #00ccff;
+    }
+    .section-intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 50px;
+      font-size: 1.1em;
+      color: #c0c0c0;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project-card {
+      background: rgba(0, 204, 255, 0.1);
+      border-radius: 12px;
+      padding: 25px 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 18px rgba(0, 204, 255, 0.4);
+    }
+    .project-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.4em;
+      color: #00ccff;
+    }
+    .project-card p {
+      font-size: 0.95em;
+      color: #cccccc;
+      margin-bottom: 15px;
+    }
+    .project-card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #00ccff;
+      color: #001f3f;
+      font-weight: bold;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .project-card a:hover {
+      background: #00a3cc;
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #001a33;
+      color: #ffffff;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">VN Design Hub</div>
+    <ul class="nav-links">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#services">Our Services</a></li>
+      <li><a href="index.html#team">Team</a></li>
+      <li><a href="index.html#portfolio">Portfolio</a></li>
+   
+      
+    </ul>
+  </nav>
+
+  <!-- Portfolio Content -->
+  <div class="portfolio-container">
+    <h1>Web Development Projects</h1>
+    <p class="section-intro">
+      Here are some of the websites we’ve designed and developed. Click on any project to explore it live.
+    </p>
+
+    <div class="projects">
+      <div class="project-card">
+        <h3>Earthheroes Foundation</h3>
+        <p>
+    We developed a modern website for Earth Heroes Foundation, a Section 8 non-profit established in 2019 and inspired by <em>Vasudhaiva Kutumbakam</em>.  
+    The site highlights their mission of inclusive growth, environmental care, and social sustainability aligned with the UN SDGs.
+  </p>
+        <a href="https://earth-heros-eosin.vercel.app/#join" target="_blank">Visit Website</a>
+      </div>
+
+     <div class="project-card">
+  <h3>Intelligentsia Club</h3>
+  <p>We developed an official website for the Intelligentsia Club to showcase events, projects, and AI/ML initiatives.</p>
+  <a href="https://intelligentsiaclub.vercel.app/" target="_blank">Visit Website</a>
+</div>
+
+
+      
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 VN Design Hub | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
